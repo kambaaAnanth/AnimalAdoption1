@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING">
+              <span class="suite-name border-passed">AAZP ANIMAL ADOPTION TESTING</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span>C:\Users\kavya\Desktop\TANHODA\ANIMAL ADOPTION\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AAZP_ANIMAL_ADOPTION_TESTING">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" class="hide-methods passed suite-AAZP_ANIMAL_ADOPTION_TESTING"> (hide)</a> <!-- hide-methods passed suite-AAZP_ANIMAL_ADOPTION_TESTING -->
+                      <a href="#" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" class="show-methods passed suite-AAZP_ANIMAL_ADOPTION_TESTING"> (show)</a> <!-- show-methods passed suite-AAZP_ANIMAL_ADOPTION_TESTING -->
+                    </span>
+                    <div class="method-list-content passed suite-AAZP_ANIMAL_ADOPTION_TESTING">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.LoginpageTest" hash-for-method="bothcorrect(demo@kambaa.com, 1234)">bothcorrect(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.LoginpageTest" hash-for-method="bothinvalid(DEMO@kambaa.com, 3234)">bothinvalid(DEMO@kambaa.com, 3234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyorderpageTest" hash-for-method="cartcount(demo@kambaa.com, 1234)">cartcount(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.AnimalAdoptedPageTest" hash-for-method="checkamount(demo@kambaa.com, 1234)">checkamount(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.AnimalAdoptedPageTest" hash-for-method="checksuccessfulpay(demo@kambaa.com, 1234)">checksuccessfulpay(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.AnimalAdoptedPageTest" hash-for-method="checkwithoutselectanimalcheckbox(demo@kambaa.com, 1234)">checkwithoutselectanimalcheckbox(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.AnimalAdoptedPageTest" hash-for-method="checkwithoutselectmonthandyear(demo@kambaa.com, 1234)">checkwithoutselectmonthandyear(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.LoginpageTest" hash-for-method="invalidemail(DEMO@kambaa.com, 1234)">invalidemail(DEMO@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.LoginpageTest" hash-for-method="invalidpwd(demo@kambaa.com, 3234)">invalidpwd(demo@kambaa.com, 3234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.AnimalAdoptedPageTest" hash-for-method="languageconvert(demo@kambaa.com, 1234)">languageconvert(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyorderpageTest" hash-for-method="myorderpagehomepage(demo@kambaa.com, 1234)">myorderpagehomepage(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyprofilepageTest" hash-for-method="myprofileeditsuccess(demo@kambaa.com, 1234)">myprofileeditsuccess(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyorderpageTest" hash-for-method="navigatetobacktoanimaladoptedpage(demo@kambaa.com, 1234)">navigatetobacktoanimaladoptedpage(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyorderpageTest" hash-for-method="orderidcheck(demo@kambaa.com, 1234)">orderidcheck(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.RegisterpageTest" hash-for-method="registerpage">registerpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyprofilepageTest" hash-for-method="withoutenteraddress(demo@kambaa.com, 1234)">withoutenteraddress(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyprofilepageTest" hash-for-method="withoutenterpincode(demo@kambaa.com, 1234)">withoutenterpincode(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" title="com.kambaa.aazp.Test.MyprofilepageTest" hash-for-method="withoutselectstate(demo@kambaa.com, 1234)">withoutselectstate(demo@kambaa.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AAZP_ANIMAL_ADOPTION_TESTING -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AAZP_ANIMAL_ADOPTION_TESTING" class="panel AAZP_ANIMAL_ADOPTION_TESTING">
+          <div class="suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kambaa.aazp.Test.AnimalAdoptedPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkamount(demo@kambaa.com, 1234)">
+                  </a> <!-- checkamount(demo@kambaa.com, 1234) -->
+                  <span class="method-name">checkamount</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checksuccessfulpay(demo@kambaa.com, 1234)">
+                  </a> <!-- checksuccessfulpay(demo@kambaa.com, 1234) -->
+                  <span class="method-name">checksuccessfulpay</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkwithoutselectanimalcheckbox(demo@kambaa.com, 1234)">
+                  </a> <!-- checkwithoutselectanimalcheckbox(demo@kambaa.com, 1234) -->
+                  <span class="method-name">checkwithoutselectanimalcheckbox</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkwithoutselectmonthandyear(demo@kambaa.com, 1234)">
+                  </a> <!-- checkwithoutselectmonthandyear(demo@kambaa.com, 1234) -->
+                  <span class="method-name">checkwithoutselectmonthandyear</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageconvert(demo@kambaa.com, 1234)">
+                  </a> <!-- languageconvert(demo@kambaa.com, 1234) -->
+                  <span class="method-name">languageconvert</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed -->
+          <div class="suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kambaa.aazp.Test.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bothcorrect(demo@kambaa.com, 1234)">
+                  </a> <!-- bothcorrect(demo@kambaa.com, 1234) -->
+                  <span class="method-name">bothcorrect</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bothinvalid(DEMO@kambaa.com, 3234)">
+                  </a> <!-- bothinvalid(DEMO@kambaa.com, 3234) -->
+                  <span class="method-name">bothinvalid</span>
+                  <span class="parameters">(DEMO@kambaa.com, 3234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidemail(DEMO@kambaa.com, 1234)">
+                  </a> <!-- invalidemail(DEMO@kambaa.com, 1234) -->
+                  <span class="method-name">invalidemail</span>
+                  <span class="parameters">(DEMO@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidpwd(demo@kambaa.com, 3234)">
+                  </a> <!-- invalidpwd(demo@kambaa.com, 3234) -->
+                  <span class="method-name">invalidpwd</span>
+                  <span class="parameters">(demo@kambaa.com, 3234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed -->
+          <div class="suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kambaa.aazp.Test.RegisterpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerpage">
+                  </a> <!-- registerpage -->
+                  <span class="method-name">registerpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed -->
+          <div class="suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kambaa.aazp.Test.MyprofilepageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="myprofileeditsuccess(demo@kambaa.com, 1234)">
+                  </a> <!-- myprofileeditsuccess(demo@kambaa.com, 1234) -->
+                  <span class="method-name">myprofileeditsuccess</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutenteraddress(demo@kambaa.com, 1234)">
+                  </a> <!-- withoutenteraddress(demo@kambaa.com, 1234) -->
+                  <span class="method-name">withoutenteraddress</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutenterpincode(demo@kambaa.com, 1234)">
+                  </a> <!-- withoutenterpincode(demo@kambaa.com, 1234) -->
+                  <span class="method-name">withoutenterpincode</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutselectstate(demo@kambaa.com, 1234)">
+                  </a> <!-- withoutselectstate(demo@kambaa.com, 1234) -->
+                  <span class="method-name">withoutselectstate</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed -->
+          <div class="suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kambaa.aazp.Test.MyorderpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartcount(demo@kambaa.com, 1234)">
+                  </a> <!-- cartcount(demo@kambaa.com, 1234) -->
+                  <span class="method-name">cartcount</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myorderpagehomepage(demo@kambaa.com, 1234)">
+                  </a> <!-- myorderpagehomepage(demo@kambaa.com, 1234) -->
+                  <span class="method-name">myorderpagehomepage</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigatetobacktoanimaladoptedpage(demo@kambaa.com, 1234)">
+                  </a> <!-- navigatetobacktoanimaladoptedpage(demo@kambaa.com, 1234) -->
+                  <span class="method-name">navigatetobacktoanimaladoptedpage</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderidcheck(demo@kambaa.com, 1234)">
+                  </a> <!-- orderidcheck(demo@kambaa.com, 1234) -->
+                  <span class="method-name">orderidcheck</span>
+                  <span class="parameters">(demo@kambaa.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AAZP_ANIMAL_ADOPTION_TESTING-class-passed -->
+        </div> <!-- panel AAZP_ANIMAL_ADOPTION_TESTING -->
+        <div panel-name="test-xml-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kavya\Desktop\TANHODA\ANIMAL ADOPTION\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; verbose=&quot;2&quot; name=&quot;AAZP ANIMAL ADOPTION TESTING&quot; parallel=&quot;none&quot;&gt;
+  &lt;parameter name=&quot;validpassword&quot; value=&quot;1234&quot;/&gt;
+  &lt;parameter name=&quot;invalidemail&quot; value=&quot;DEMO@kambaa.com&quot;/&gt;
+  &lt;parameter name=&quot;validemail&quot; value=&quot;demo@kambaa.com&quot;/&gt;
+  &lt;parameter name=&quot;invalidpassword&quot; value=&quot;3234&quot;/&gt;
+  &lt;test name=&quot;Registerpage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kambaa.aazp.Test.RegisterpageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registerpage Test --&gt;
+  &lt;test name=&quot;Loginpage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kambaa.aazp.Test.LoginpageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Loginpage Test --&gt;
+  &lt;test name=&quot;Animal Adoption Dashboard Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kambaa.aazp.Test.AnimalAdoptedPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Animal Adoption Dashboard Test --&gt;
+  &lt;test name=&quot;Myprofilepage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kambaa.aazp.Test.MyprofilepageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Myprofilepage Test --&gt;
+  &lt;test name=&quot;Myorderpage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kambaa.aazp.Test.MyorderpageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Myorderpage Test --&gt;
+&lt;/suite&gt; &lt;!-- AAZP ANIMAL ADOPTION TESTING --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AAZP ANIMAL ADOPTION TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registerpage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Loginpage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Animal Adoption Dashboard Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Myprofilepage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Myorderpage Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AAZP ANIMAL ADOPTION TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AAZP ANIMAL ADOPTION TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AAZP_ANIMAL_ADOPTION_TESTING');
+function tableData_AAZP_ANIMAL_ADOPTION_TESTING() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cartcount')
+data.setCell(0, 2, 'com.kambaa.aazp.Test.MyorderpageTest')
+data.setCell(0, 3, 139445);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'withoutenteraddress')
+data.setCell(1, 2, 'com.kambaa.aazp.Test.MyprofilepageTest')
+data.setCell(1, 3, 93930);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'withoutselectstate')
+data.setCell(2, 2, 'com.kambaa.aazp.Test.MyprofilepageTest')
+data.setCell(2, 3, 69574);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'myorderpagehomepage')
+data.setCell(3, 2, 'com.kambaa.aazp.Test.MyorderpageTest')
+data.setCell(3, 3, 55158);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'registerpage')
+data.setCell(4, 2, 'com.kambaa.aazp.Test.RegisterpageTest')
+data.setCell(4, 3, 39962);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checksuccessfulpay')
+data.setCell(5, 2, 'com.kambaa.aazp.Test.AnimalAdoptedPageTest')
+data.setCell(5, 3, 34947);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'languageconvert')
+data.setCell(6, 2, 'com.kambaa.aazp.Test.AnimalAdoptedPageTest')
+data.setCell(6, 3, 30288);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'bothcorrect')
+data.setCell(7, 2, 'com.kambaa.aazp.Test.LoginpageTest')
+data.setCell(7, 3, 24808);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidpwd')
+data.setCell(8, 2, 'com.kambaa.aazp.Test.LoginpageTest')
+data.setCell(8, 3, 15392);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkamount')
+data.setCell(9, 2, 'com.kambaa.aazp.Test.AnimalAdoptedPageTest')
+data.setCell(9, 3, 11726);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkwithoutselectanimalcheckbox')
+data.setCell(10, 2, 'com.kambaa.aazp.Test.AnimalAdoptedPageTest')
+data.setCell(10, 3, 10392);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'myprofileeditsuccess')
+data.setCell(11, 2, 'com.kambaa.aazp.Test.MyprofilepageTest')
+data.setCell(11, 3, 9331);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkwithoutselectmonthandyear')
+data.setCell(12, 2, 'com.kambaa.aazp.Test.AnimalAdoptedPageTest')
+data.setCell(12, 3, 8314);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'withoutenterpincode')
+data.setCell(13, 2, 'com.kambaa.aazp.Test.MyprofilepageTest')
+data.setCell(13, 3, 7702);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'navigatetobacktoanimaladoptedpage')
+data.setCell(14, 2, 'com.kambaa.aazp.Test.MyorderpageTest')
+data.setCell(14, 3, 7505);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'invalidemail')
+data.setCell(15, 2, 'com.kambaa.aazp.Test.LoginpageTest')
+data.setCell(15, 3, 2913);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'orderidcheck')
+data.setCell(16, 2, 'com.kambaa.aazp.Test.MyorderpageTest')
+data.setCell(16, 3, 2758);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'bothinvalid')
+data.setCell(17, 2, 'com.kambaa.aazp.Test.LoginpageTest')
+data.setCell(17, 3, 2593);
+window.suiteTableData['AAZP_ANIMAL_ADOPTION_TESTING']= { tableData: data, tableDiv: 'times-div-AAZP_ANIMAL_ADOPTION_TESTING'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-AAZP_ANIMAL_ADOPTION_TESTING">
+              </div> <!-- times-div-AAZP_ANIMAL_ADOPTION_TESTING -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AAZP ANIMAL ADOPTION TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AAZP_ANIMAL_ADOPTION_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kambaa.aazp.Test.RegisterpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialise</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registerpage</span>
+                <span class="method-start">78603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">118572 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kambaa.aazp.Test.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialise</span>
+                <span class="method-start">120619 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">invalidemail(DEMO@kambaa.com, 1234)</span>
+                <span class="method-start">160183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidpwd(demo@kambaa.com, 3234)</span>
+                <span class="method-start">163100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bothcorrect(demo@kambaa.com, 1234)</span>
+                <span class="method-start">178495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bothinvalid(DEMO@kambaa.com, 3234)</span>
+                <span class="method-start">203306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">205901 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kambaa.aazp.Test.AnimalAdoptedPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialise</span>
+                <span class="method-start">207084 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">languageconvert(demo@kambaa.com, 1234)</span>
+                <span class="method-start">256472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkwithoutselectanimalcheckbox(demo@kambaa.com, 1234)</span>
+                <span class="method-start">286763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkwithoutselectmonthandyear(demo@kambaa.com, 1234)</span>
+                <span class="method-start">297157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkamount(demo@kambaa.com, 1234)</span>
+                <span class="method-start">305473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checksuccessfulpay(demo@kambaa.com, 1234)</span>
+                <span class="method-start">317202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">352151 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kambaa.aazp.Test.MyprofilepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialise</span>
+                <span class="method-start">353343 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">withoutenteraddress(demo@kambaa.com, 1234)</span>
+                <span class="method-start">399512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutselectstate(demo@kambaa.com, 1234)</span>
+                <span class="method-start">493445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withoutenterpincode(demo@kambaa.com, 1234)</span>
+                <span class="method-start">563022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">myprofileeditsuccess(demo@kambaa.com, 1234)</span>
+                <span class="method-start">570727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">580060 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kambaa.aazp.Test.MyorderpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialise</span>
+                <span class="method-start">581210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">cartcount(demo@kambaa.com, 1234)</span>
+                <span class="method-start">635972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">myorderpagehomepage(demo@kambaa.com, 1234)</span>
+                <span class="method-start">775420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigatetobacktoanimaladoptedpage(demo@kambaa.com, 1234)</span>
+                <span class="method-start">830581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">orderidcheck(demo@kambaa.com, 1234)</span>
+                <span class="method-start">838088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">840846 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

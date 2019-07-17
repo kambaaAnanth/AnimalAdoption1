@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="2" name="Failed suite [AAZP ANIMAL ADOPTION TESTING]" parallel="none">
+  <parameter name="validpassword" value="1234"/>
+  <parameter name="invalidemail" value="DEMO@kambaa.com"/>
+  <parameter name="validemail" value="demo@kambaa.com"/>
+  <parameter name="invalidpassword" value="3234"/>
+  <test name="Registerpage Test">
+    <classes>
+      <class name="com.kambaa.aazp.Test.RegisterpageTest"/>
+    </classes>
+  </test> <!-- Registerpage Test -->
+  <test name="Loginpage Test">
+    <classes>
+      <class name="com.kambaa.aazp.Test.LoginpageTest"/>
+    </classes>
+  </test> <!-- Loginpage Test -->
+  <test name="Animal Adoption Dashboard Test">
+    <classes>
+      <class name="com.kambaa.aazp.Test.AnimalAdoptedPageTest"/>
+    </classes>
+  </test> <!-- Animal Adoption Dashboard Test -->
+  <test name="Myprofilepage Test">
+    <classes>
+      <class name="com.kambaa.aazp.Test.MyprofilepageTest"/>
+    </classes>
+  </test> <!-- Myprofilepage Test -->
+  <test name="Myorderpage Test">
+    <classes>
+      <class name="com.kambaa.aazp.Test.MyorderpageTest"/>
+    </classes>
+  </test> <!-- Myorderpage Test -->
+</suite> <!-- Failed suite [AAZP ANIMAL ADOPTION TESTING] -->

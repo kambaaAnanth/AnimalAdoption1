@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AAZP ANIMAL ADOPTION TESTING" verbose="2" parallel="none"
+	thread-count="4">
+ <test name="Registerpage Test">
+		<classes>
+			<class name="com.kambaa.aazp.Test.RegisterpageTest" />
+		</classes>
+	</test>
+	<parameter name="invalidemail" value="DEMO@kambaa.com" />
+	<parameter name="invalidpassword" value="3234" />
+	<parameter name="validemail" value="demo@kambaa.com" />
+	<parameter name="validpassword" value="1234" />
+	<test name="Loginpage Test">
+		<classes>
+			<class name="com.kambaa.aazp.Test.LoginpageTest" />
+		</classes>
+	</test>
+	<test name="Animal Adoption Dashboard Test">
+		<classes>
+			<class name="com.kambaa.aazp.Test.AnimalAdoptedPageTest" />
+		</classes>
+	</test>
+	<test name="Myprofilepage Test">
+		<classes>
+			<class name="com.kambaa.aazp.Test.MyprofilepageTest" />
+		</classes>
+	</test> 
+	<parameter name="validemail" value="demo@kambaa.com" />
+	<parameter name="validpassword" value="1234" />
+	<test name="Myorderpage Test">
+		<classes>
+			<class name="com.kambaa.aazp.Test.MyorderpageTest" />
+		</classes>
+	</test>
+
+</suite>  
